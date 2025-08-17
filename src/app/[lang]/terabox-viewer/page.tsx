@@ -47,8 +47,12 @@ export default async function TeraBoxPlayerPage({ params }: { params: { lang: Lo
               Stream TeraBox videos directly in your browser with our advanced TeraBox Player. 
               No downloads required, just paste your TeraBox link and start watching instantly.
             </p>
+
+            <div className="bg-white rounded-lg shadow-lg p-8 w-full h-full">
+                    <iframe src="https://www.teraboxvideoplayer.online/" style={{width: '100%', height: '800px'}} className="w-full h-full"></iframe>
+            </div>
+            {/* <RednoteVideoDownloader lang={params.lang} dict={dict} /> */}
             
-            <RednoteVideoDownloader lang={params.lang} dict={dict} />
 
             {/* Trust Indicators */}
             <div className="flex flex-wrap justify-center gap-6 pt-6 text-sm text-gray-600">
