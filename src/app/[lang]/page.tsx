@@ -29,7 +29,7 @@ export default async function Home({
                 </p>
 
                 <div className="bg-white rounded-lg shadow-lg p-8 w-full h-full">
-                    <iframe src="https://www.teraboxvideoplayer.online/" style={{width: '100%', height: '800px'}} className="w-full h-full"></iframe>
+                    <iframe src="https://terabox.hnn.workers.dev/" style={{width: '100%', height: '800px'}} className="w-full h-full"></iframe>
                 </div>
                 {/* <RednoteVideoDownloader lang={params.lang} dict={dict} /> */}
 
